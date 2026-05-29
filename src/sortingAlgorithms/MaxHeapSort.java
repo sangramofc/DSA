@@ -11,18 +11,14 @@ public class HeapSort {
         if (l < heapSize && a[l] > a[largest]) largest = l;
         if (r < heapSize && a[r] > a[largest]) largest = r;
 
-        // If largest is not root
         if (largest != i) {
             // Swap
             int temp = a[i];
             a[i] = a[largest];
             a[largest] = temp;
 
-            // Recursively maxHeapify the affected subtree
             maxHeapify(a, heapSize, largest);
         }
-
-
     }
 
     // build-max-heap function
