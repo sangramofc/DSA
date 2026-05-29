@@ -1,6 +1,6 @@
 package sortingAlgorithms;
 
-public class HeapSort {
+public class MaxHeapSort {
 
     // max-heapify function
     public static void maxHeapify(int[] a, int heapSize, int i) {
