@@ -1,4 +1,4 @@
-package intermediate.arrays;
+package intermediate.problemSolving;
 
 public class ElementsGreaterThanItSelf {
     static void main(String[] args) {

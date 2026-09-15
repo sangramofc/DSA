@@ -1,4 +1,4 @@
-package intermediate.arrays;
+package intermediate.problemSolving;
 
 // O(n^2) but with lesser iterations - (checking upper-triangle only, from the matrix of all possible indices)
 

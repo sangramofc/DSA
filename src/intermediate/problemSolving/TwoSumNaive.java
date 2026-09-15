@@ -1,4 +1,4 @@
-package intermediate.arrays;
+package intermediate.problemSolving;
 
 // O(N^2)
 
