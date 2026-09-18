@@ -28,7 +28,7 @@ public class PickFromBothSides {
         ss[a.length - 1] = a[a.length - 1];
         for (int i = a.length - 2; i >= 0; i--) {
             ss[i] = ss[i + 1] + a[i];
-        }
+	}
 
         // Base case: All B elements from left or all B elements from right
         int max = Math.max(ps[b - 1], ss[a.length - b]);
@@ -42,6 +42,7 @@ public class PickFromBothSides {
             max = Math.max(max, currentSum);
         }
         System.out.println(max);
+
 
     }
 
